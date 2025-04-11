@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&family=Varela&display=swap" rel="stylesheet">
+    <title>The GAME</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="jsgame.js"></script>
+  </head>
+  <body onload = "set_hp()">
+
+    <div class="background">
+      <div class="window">
+        <div class="text_in_block">
+          <p class="game_title">GUESS THE NUMBER!</p>
+          <div id="hp_count" class="hp_style">
+                 
+          </div>
+        </div>
+        <div class="some_input">
+          <input class="input" id="2" type="number" min="0" max="100" placeholder="Put a number 1 to 100">
+        </div>
+        <div class="buttons_div">
+          <button class="newnumber_button" onclick="newnumber_function()">
+            NEW NUMBER
+          </button>
+          <button class="submit_button" onclick="submit_function()">
+            GUESS
+          </button>
+        </div>
+        
+      </div>
+
+      
+
+    </div>
+
+
+
+
+
+  </body>
+</html>

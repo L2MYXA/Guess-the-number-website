@@ -1,0 +1,126 @@
+*{
+  font-family: Lexend Exa;
+}
+
+html, body {
+  margin: 0;
+}
+
+
+
+.background{
+  margin: none;
+  background-color:#0C0C1E;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.window{
+  border-radius: 10px;
+  width: 600px;
+  height:600px;
+  background-color: #1B2E3C;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.text_in_block{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#F3E3E2;
+  width: 600px;
+  font-size: 20px;
+  padding:20px;
+}
+
+input{
+  background-color: #F3E3E2;
+  border-color: transparent;
+  outline-color: rgba(0, 255, 255, 0.288);
+  min-width: 160px;
+  display: flex;
+  height: 80px;
+  width: 60%;
+  border-radius: 20px;
+  padding: 3px 10px 3px 10px;
+  color: #4B0000;
+  font-size: 24px;
+  box-shadow:#14222c 0px 7px 10px;
+}
+
+.some_input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input::placeholder{
+  color: #4b00001c;
+}
+
+button{
+  border-radius: 16px;
+  height: 80px;
+  width: 31%;
+  font-size: 16px;
+  background-color: #4B0000;
+  color:#F3E3E2;
+  outline: transparent;
+  margin: 5px;
+  border-color: transparent;
+  box-shadow: transparent;
+  font-weight: 500;
+  box-shadow:#14222c 0px 5px 10px;
+}
+
+button:hover{
+  font-weight: 700;
+  background-color: #550f0f;
+}
+
+button:active { 
+  font-weight: 700;
+  background-color: #ff0000;
+  transition-duration: 150ms;
+}
+
+.game_title{
+  position: absolute;
+}
+
+.hp_style{
+  right: 250px;
+  bottom: 60px;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  color: #8a2d2d;
+  font-weight: 900;
+  animation: text 2s infinite;
+}
+
+@keyframes text{
+  0% { color: #8a2d2d;}
+  50% { color: #c43f3f; }
+  100% { color: #8a2d2d; }
+}
+
+
+.submit_button{
+
+}
+
+.newnumber_button{
+}
