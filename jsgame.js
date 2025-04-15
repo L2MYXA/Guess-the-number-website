@@ -2,9 +2,11 @@ var random_number = Math.floor(Math.random() * 101);
 var sug_num;
 let hp = 5;
 
+
+
 function set_hp(){
   const div_hp = document.getElementById("hp_count");
-  div_hp.textContent = hp + " HP";
+  div_hp.textContent = hp;
 }
 
 

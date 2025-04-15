@@ -100,7 +100,7 @@ button:active {
   position: absolute;
 }
 
-.hp_style{
+.hp_block_style{
   right: 250px;
   bottom: 60px;
   position: relative;
@@ -109,6 +109,8 @@ button:active {
   color: #8a2d2d;
   font-weight: 900;
   animation: text 2s infinite;
+  display: flex;
+  align-items: center;
 }
 
 @keyframes text{
@@ -116,6 +118,19 @@ button:active {
   50% { color: #c43f3f; }
   100% { color: #8a2d2d; }
 }
+
+.hp_icon{
+  margin: 0px 0px 0px 7px;
+  height: 20px;
+  padding: 0;
+  animation:icon 2s infinite;
+}
+@keyframes icon{
+  0% { opacity:0.60;}
+  50% {  opacity:1;}
+  100% {  opacity:0.60;}
+}
+
 
 
 .submit_button{
